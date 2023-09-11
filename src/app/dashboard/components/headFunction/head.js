@@ -5,9 +5,9 @@ import "./headFuction.css";
 
 export default function HeadFuction() {
     return(
-        <div className="headFuction">
-            <Container>
-             <Row className="justify-content-center">
+        <div className="headFuction pt-0 pb-5">
+            <Container className="mb-5">
+             <Row className="justify-content-center pt-1">
                 <Col className="text-center" >
                 <img src="./logo-proyecto.svg" alt="FONDECYT 1230159"/>
                 </Col>

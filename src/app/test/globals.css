@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+    position: relative; /* Esto es importante para posicionar elementos hijos relativos a este contenedor */
+  }
+  
+  .element2 {
+    position: absolute; /* Esto permite que el elemento se posicione de forma absoluta dentro del contenedor */
+    top: -20px; /* Ajusta la cantidad de píxeles que deseas que se mueva hacia arriba */
+    background-color: red; /* Cambia el color de fondo a tu gusto */
+    z-index: 1; /* Esto asegura que el segundo elemento esté por encima del primero */
+  }
+
+  .element1 {
+    background-color: black; /* Cambia el color de fondo a tu gusto */
+    z-index: 0; /* Esto asegura que el segundo elemento esté por encima del primero */
+    color:white;
+    padding-bottom: 100px;
+  }
