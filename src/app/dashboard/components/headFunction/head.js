@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import {Container,Col, Row } from "react-bootstrap";
+import {Container, Col, Row } from "react-bootstrap";
 import "./headFuction.css"; 
 
 export default function HeadFuction() {
     return(
-        <>
+        <div className="headFuction">
             <Container>
              <Row className="justify-content-center">
                 <Col className="text-center" >
@@ -21,6 +21,6 @@ export default function HeadFuction() {
                 </h3>
             </Row>            
             </Container>
-        </>
+        </div>
     );
 }

@@ -5,15 +5,13 @@ import dynamic from "next/dynamic";
 import React from "react";
 import { Nav, Button, Container,Col, Row } from "react-bootstrap";
 import  HeadFuction  from "./components/headFunction/head";
+import FooterFuction from "./components/footerFuction/footer";
 
 export default function Dashboard() {
     return(
-        <body>
-            <Row className="headFuction">
-                <Container>
-                    <HeadFuction></HeadFuction>
-                </Container>
-            </Row>
-        </body>
+        <>
+        <HeadFuction></HeadFuction>
+        <FooterFuction></FooterFuction>
+        </>
     );
 }
