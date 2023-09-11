@@ -2,6 +2,7 @@
     background-color: #222629;
     color: white;
     position: inherit;
+    max-height: 374px;
 }
 
 h5 {
